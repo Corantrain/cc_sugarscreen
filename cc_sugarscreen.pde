@@ -18,19 +18,19 @@ void draw()
 {
   background(100);
   
-    if (pos.x > width-25 && x > 0){ 
+    if (pos.x > width-25){ 
       x = random(1,50) ;
       x = -x; }
     
-    if (pos.y > height-25 && y > 0){
+    if (pos.y > height-25){
       y = random(1,50) ;
       y = -y; }
       
-    if (pos.y < 25 && y < 0){
+    if (pos.y < 25){
       y = -random(1,50) ;
       y = -y;}
       
-    if (pos.x < 25 && x < 0){
+    if (pos.x < 25){
       x = -random(1,50) ;
       x = -x;}
      
